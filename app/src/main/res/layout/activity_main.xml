@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/text_view_titulo" />
+
+    <EditText
+        android:id="@+id/idCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit_hin_codigo" />
+
+    <EditText
+        android:id="@+id/idNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit_text_nombre" />
+
+    <EditText
+        android:id="@+id/idApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/edit_text_apellido" />
+
+    <EditText
+        android:id="@+id/idEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="@string/edit_text_email" />
+
+    <Button
+        android:id="@+id/idButtonInsertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickInsertar"
+        android:text="@string/button_insertar" />
+
+    <Button
+        android:id="@+id/idButtonBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBuscar"
+        android:text="@string/button_buscar" />
+
+    <Button
+        android:id="@+id/idButtonEliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickEliminar"
+        android:text="@string/button_eliminar" />
+
+    <Button
+        android:id="@+id/idButtonModificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickModificar"
+        android:text="@string/button_modificar" />
+
+    <Button
+        android:id="@+id/idButtonMostrarListaV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mostrarActivityListaV"
+        android:text="@string/button_listaV" />
+
+    <Button
+        android:id="@+id/idButtonMostrarListaR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_listaR" />
+
+</LinearLayout>

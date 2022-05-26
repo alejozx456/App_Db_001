@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">App_Db_001</string>
+    <string name="text_view_titulo">Mantenimiento de Clientes</string>
+    <string name="edit_hin_codigo">Codigo</string>
+    <string name="edit_text_nombre">Ingrese nombre</string>
+    <string name="edit_text_apellido">Ingrese Apellido</string>
+    <string name="edit_text_email">Ingrese Email</string>
+    <string name="button_insertar">Insertar</string>
+    <string name="button_buscar">Buscar por Codigo</string>
+    <string name="button_eliminar">Eliminar</string>
+    <string name="button_modificar">Modificar</string>
+    <string name="text_view_titulo_listaV">Lista de Personas</string>
+    <string name="button_listaV">Mostrar ListView</string>
+    <string name="button_listaR">Mostrar Recycler View</string>
+    <string name="text_view_tituloR">Lista de Persoans</string>
+</resources>
